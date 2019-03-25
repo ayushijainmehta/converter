@@ -1,0 +1,21 @@
+<settings>
+<proxies>
+    <proxy>
+        <id>httpproxy</id>
+        <active>true</active>
+        <protocol>http</protocol>
+        <host>proxy.cognizant.com</host>
+        <port>6050</port>
+        <nonProxyHosts>local.net|some.host.com</nonProxyHosts>
+    </proxy>
+<proxy>
+        <id>httpsproxy</id>
+        <active>true</active>
+        <protocol>https</protocol>
+        <host>proxy.cognizant.com</host>
+        <port>6050</port>
+        <nonProxyHosts>local.net|some.host.com</nonProxyHosts>
+    </proxy>
+
+</proxies>
+</settings>
